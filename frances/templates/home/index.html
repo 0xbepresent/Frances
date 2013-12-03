@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Home</title>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+    <script src='{{STATIC_URL}}js/strophe/strophe.js'></script>
+    <script src='{{STATIC_URL}}js/strophe/strophe.register.js'></script>
+    <script src='{{STATIC_URL}}js/frances.js'></script>
+</head>
+<body>
+My Home.
+<p id="version"></p> 
+<p id="nickname"></p>
+<button id="init_frances">Init</button>
+<button id="stop_frances">Stop</button>
+<h1 id="status_service"></h1>
+<h1 id="general_msg"></h1>
+
+<input type="text" id="txt_val" />
+<input type="submit" id="send_txt" value="Enviar"/>
+</body>
+</html>
